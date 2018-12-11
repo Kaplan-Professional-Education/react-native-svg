@@ -1,5 +1,6 @@
 buildscript {
     repositories {
+        maven { url "https://dl.bintray.com/android/android-tools/" }
         jcenter()
     }
 
@@ -29,6 +30,7 @@ android {
 }
 
 repositories {
+    maven { url "https://dl.bintray.com/android/android-tools/" }
     mavenLocal()
     jcenter()
     maven {
